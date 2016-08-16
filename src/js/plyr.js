@@ -3425,7 +3425,7 @@
         }
 
         // Create a player instance for each element
-        for (var key in containers) {
+        for (var key = 0; k < containers.length; key++) {
             var element = containers[key].element,
                 original = containers[key].original || element;
 
