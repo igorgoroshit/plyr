@@ -2,6 +2,7 @@
     "name": "plyr",
     "description": "A simple HTML5 media player using custom controls",
     "homepage": "http://plyr.io",
+    "version": "2.0.10",
     "keywords": [
         "Audio",
         "Video",
