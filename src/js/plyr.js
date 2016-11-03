@@ -34,6 +34,7 @@
         debug:                  false,
         autoplay:               false,
         loop:                   false,
+        playsinline:            true,
         seekTime:               10,
         volume:                 10,
         volumeMin:              0, 
@@ -2781,6 +2782,9 @@
                     }
                     if (config.loop) {
                         plyr.media.setAttribute('loop', '');
+                    }
+                    if (config.playsinline) {
+                        plyr.media.setAttribute('playsinline', '');
                     }
                 }
 
